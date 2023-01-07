@@ -8,7 +8,7 @@
     font-size: 30px;
 }
 .primary-btn{
-    padding: 15px 20px;
+    padding: 10px 20px;
     font-weight: 400;
     font-size: 20px;
     border-radius: 5px;
@@ -21,15 +21,15 @@
 }
 .description{
     color: #444343;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
     margin-bottom: 15px;
 }
-/* Header Section Start*/
+/*-------------------- Header Section Start----------------------*/
 .header{
     height: 100vh;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     background: url(../images/banner/banner2.png);
     background-size: cover;
     text-align: right;
@@ -53,9 +53,9 @@
     background: #F15B22;
     color: #fff;
 }
-/* Header Section End*/
+/*------------------- Header Section End ------------------------*/
 
-/* My Failurs Section Start */
+/*------------------- My Failurs Section Start ------------------*/
 .my-failurs{
     height: 100vh;
     display: flex;
@@ -72,8 +72,9 @@ li{
 .person{
     height: 600px;
 }
-/* My Failurs Section End */
-/* Plan Section Start*/
+/* ------------------- My Failurs Section End -----------------------*/
+
+/*------------------- Plan Section Start ---------------------------*/
 .my-plan{
     text-align: center;
 }
@@ -87,12 +88,11 @@ li{
     align-items: center;
 }
 .plan{
-    margin-right: 70px;
-    /* background: red; */
+    padding: 20px;
 }
-.icon{
-    margin-bottom: 10px;
-    margin-right: 15px;
+.plan-icon {
+    color: red;
+    margin-bottom: 20px;
 }
 .plans-title{
     color: #151414;
@@ -102,9 +102,37 @@ li{
     font-size: 20px;
     color: #737272;
 }
-/* Plan Section End*/
+/* --------------------- Plan Section End ------------------------*/
 
-/* Banner Section Start*/
+/*-------------------- What i do section Start --------------------*/
+.what-i-do{
+    text-align: center;
+    margin-top: 100px;
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+}
+.skill{
+    /* background: red; */
+    margin: 10px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px;
+}
+.what-i-do-title{
+    margin-bottom: 50px;
+}
+.what-i-title{
+    font-weight: 400;
+    margin: 30px 0px 20px 0px;
+
+}
+/* -------------------- what i do sectionnn End -------------------*/
+
+/*--------------------- Banner Section Start -----------------------*/
 .banner{
     display: flex;
     justify-content: center;
@@ -130,9 +158,9 @@ li{
     color: #F15B22;
     margin-top: 15px;
 }
-/* Banner Section End*/
+/*---------------------------- Banner Section End -------------------*/
 
-/* Footer Section Start */
+/*---------------------------- Footer Section Start ----------------*/
 .footer{display: flex;
     justify-content: center;
     align-items: center;
@@ -160,8 +188,11 @@ small{
     display: flex;
     margin-right: 10px;
 }
-
-
+.fa-brands{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
 .footer-sub-title{
     color: #fff;
     font-size: 20px;
@@ -169,7 +200,7 @@ small{
 }
 .footer-subscription-btn{
     color: #F15B22;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
 }
 .fontrol-input{
     height: 40px;
@@ -183,3 +214,4 @@ small{
     background: none;
     color: #F3F3F3;
 }
+/*--------------------- Footer Section End --------------------- */
